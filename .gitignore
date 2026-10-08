@@ -1,0 +1,52 @@
+# ----------------------------------------------------------------#############
+# Go / Golang .gitignore
+# ----------------------------------------------------------------#############
+
+# Binaries and executable files
+# (Compiled software should not be checked into git)
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+# (Generated automatically when running 'go test -c')
+*.test
+
+# Output and coverage artifacts 
+# (Files created by performance and testing profiles)
+*.out
+*.coverprofile
+coverage.*
+profile.cov
+
+# Go Workspace files 
+# (Local multi-module configurations)
+go.work
+go.work.sum
+
+# Environment files
+# (Never commit secret keys or sensitive configuration details)
+.env
+.env.*
+! .env.example
+
+# Dependency directory
+# (Optional: Uncomment if you prefer to vendor your dependencies)
+# vendor/
+
+# ----------------------------------------------------------------#############
+# Common IDEs and OS Files (Highly recommended to ignore)
+# ----------------------------------------------------------------#############
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Operating System specific files
+.DS_Store
+Thumbs.db

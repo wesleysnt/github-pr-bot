@@ -8,7 +8,7 @@ type WebhookPayload struct {
 }
 
 type PullRequest struct {
-	DiffUrl string `json:"diff_url`
+	DiffUrl string `json:"diff_url"`
 	Head    Commit `json:"head"`
 }
 
